@@ -13,7 +13,7 @@ class Solution:
         sum = self.make_num(self.make_reverselinkedlist(self.make_list2(l1))) + self.make_num(self.make_reverselinkedlist(self.make_list2(l2)))
         result = self.make_reverselinkedlist(self.make_list(sum))
 
-        return result
+        return result       
 
     def make_reverselinkedlist(self,sum_list):
         p = None
