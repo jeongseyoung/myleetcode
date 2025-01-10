@@ -9,7 +9,7 @@ var isValid = function (s) {
     "(": ")",
     "[": "]",
     "{": "}"
-  };
+  };  
   let arr = [];
   if (s.length <= 1) return false;
   for (let i in s) {
