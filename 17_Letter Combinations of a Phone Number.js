@@ -20,7 +20,7 @@ var letterCombinations = function (digits) {
     7: "pqrs",
     8: "tuv",
     9: "wxyz"
-  };
+  };  
   //console.log(dic[2].split(""));
   let i = 0;
   let result = [""];
