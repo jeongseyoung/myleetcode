@@ -11,7 +11,7 @@ class Solution(object):
         :rtype: int
         """
         print(f"{self}, {nums}")
-        
+            
         if not nums: return 0
         
         result = [nums[0]]
