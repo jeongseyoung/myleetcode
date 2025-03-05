@@ -10,7 +10,7 @@ class Solution(object):
     def __init__(self):
         self.name = "removeElement"   
     def removeElement(self, nums: list[int], val: int) -> int:
-        """
+        """     
         :type nums: List[int]
         :type val: int
         :rtype: int
