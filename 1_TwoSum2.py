@@ -5,7 +5,7 @@ for문을 한번만 돌리는 게 핵심.
    1. 배열을 딕셔너리로 따로 만듦.
    2. 배열을 꼭 value값에 넣어야하는 건 아님
 """
-    
+           
    
 def hash_test(nums,target):
     dic:dict = {}
