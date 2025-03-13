@@ -9,7 +9,7 @@ Example 2:
 Input: s = "bbbbb"
 Output: 1
 Explanation: The answer is "b", with the length of 1.
-       
+         
 Example 3:
 Input: s = "pwwkew"
 Output: 3
