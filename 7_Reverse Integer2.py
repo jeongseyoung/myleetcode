@@ -4,7 +4,7 @@ def reverse(x: int) -> int:
         output = int(str(x)[1:][::-1]) * -1
     else: 
         output = int(str(x)[::-1])
-        
+               
     if output <= -2**31 or output >= 2**31 - 1: return 0
     #print(output)
     return output
