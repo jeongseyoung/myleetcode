@@ -1,6 +1,6 @@
 """
 Implement the myAtoi(string s) function, which converts a string to a 32-bit signed integer.
-
+        
 The algorithm for myAtoi(string s) is as follows:
 
 Whitespace: Ignore any leading whitespace (" ").
