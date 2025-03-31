@@ -12,7 +12,7 @@ class Solution(object):
         """
         print(f"{self}, {nums}")
             
-        if not nums: return 0
+        if not nums: return 0       
         
         result = [nums[0]]
         for i in nums:
