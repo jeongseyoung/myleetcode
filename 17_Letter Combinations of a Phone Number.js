@@ -2,7 +2,7 @@
  * @param {string} digits
  * @return {string[]}
  */
-/*   
+/*      
 Example 1:
 Input: digits = "23" //string
 Output: ["ad","ae","af","bd","be","bf","cd","ce","cf"]
