@@ -12,7 +12,7 @@ var isValid = function (s) {
   };  
   let arr = [];
   if (s.length <= 1) return false;
-  for (let i in s) {
+  for (let i in s) {     
     if (s[i] === "(" || s[i] === "[" || s[i] === "{") arr.push(s[i]);
     else if (temp_dic[arr[arr.length - 1]] === s[i]) arr.pop();
     else return false;
