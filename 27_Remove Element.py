@@ -6,7 +6,7 @@ Beats 100.00%
 nums안에서 조작해야됨.(modify nums *in-place* instead.)
 ***queue 이용. 이게 핵심
 """   
-class Solution(object):
+class Solution(object):     
     def __init__(self):
         self.name = "removeElement"   
     def removeElement(self, nums: list[int], val: int) -> int:
