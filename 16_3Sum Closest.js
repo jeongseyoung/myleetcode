@@ -6,7 +6,7 @@
            
 //숫자 3개를 더해서 target에 가장 가깝게 만들기
 //마찬가지로 포인터 3개를 잡고 더하면서 비교한다.
-//
+//     
 var threeSumClosest = function (nums, target) {
   console.log("target", target);
   let r = null;
