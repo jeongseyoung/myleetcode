@@ -7,7 +7,7 @@ class Solution:
     def addTwoNumbers(self, l1:ListNode, l2: ListNode) -> ListNode:
         """
         :type l1: ListNode
-        :type l2: ListNode
+        :type l2: ListNode  
         :rtype: ListNode
         """
         sum = self.make_num(self.make_reverselinkedlist(self.make_list2(l1))) + self.make_num(self.make_reverselinkedlist(self.make_list2(l2)))
