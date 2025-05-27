@@ -8,7 +8,7 @@ class Solution(object):
             print(temp[i], nums[i])
             if temp[i] != nums[i]:
                 tempbool = True
-                break
+                break     
         print(f"tempbool {tempbool}")
         if tempbool: nums = self.rotate(nums)
         else: nums.sort(reverse=False)
