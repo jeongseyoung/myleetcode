@@ -10,7 +10,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """   
-        print(f"{self}, {nums}")
+        print(f"{self}, {nums}")   
             
         if not nums: return 0       
         
