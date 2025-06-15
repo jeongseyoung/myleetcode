@@ -14,7 +14,7 @@ class Solution(object):
         :type nums: List[int]
         :type val: int     
         :rtype: int
-        """
+        """  
         print(f"{nums} {val}")
         #nums = [n for n in nums if val != n]
         #return len(nums)
