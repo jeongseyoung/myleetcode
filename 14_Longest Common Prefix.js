@@ -17,7 +17,7 @@ Explanation: There is no common prefix among the input strings
 2중 for문을 사용하면 시간복잡도를 줄일 수 있다 -> substring할 for문, 문자들을 비교할 for문
 일치하는 문자가 없다면 빈문자("") 반환. 
 */
-   
+      
 /**
  * @param {string[]} strs
  * @return {string}
