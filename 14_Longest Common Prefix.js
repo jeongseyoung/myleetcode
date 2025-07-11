@@ -10,7 +10,7 @@ Example 2:
 Input: strs = ["dog","racecar","car"]
 Output: ""   
 Explanation: There is no common prefix among the input strings
-*/
+*/     
        
 /*
 배열 첫번째 문자를 앞에서부터 잘라가며(substring) 배열 내에 있는 문자들과 비교한다. 
