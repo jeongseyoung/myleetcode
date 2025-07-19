@@ -9,7 +9,7 @@ cnt = 0
                 del nums[0]
         for n in range(cnt):
             nums.append(0)
-"""      
+"""         
 """                     
 0,1,0,3,12
 1 0 0 3 12    
