@@ -13,7 +13,7 @@ target과 같은 수가 나오면 배열에 저장.
 -> 중복을 방지하기위해 딕셔너리에 키값으로 저장 후에 배열로 반환한다.
 */   
 var fourSum = function (nums, target) {
-  nums.sort((a, b) => a - b);
+  nums.sort((a, b) => a - b);   
   //let result = [];
   let dic_res = {};
   let n1 = 0;
