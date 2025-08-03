@@ -4,7 +4,7 @@
      
 /**   
  * @param {number} x
- * @return {boolean}
+ * @return {boolean}      
  */           
 //-231 <= x <= 231 - 1   
 var isPalindrome = function (x) {
@@ -40,3 +40,4 @@ console.log(abc);
 x = 121;
 //x = 1551;
 isPalindrome(x);
+
