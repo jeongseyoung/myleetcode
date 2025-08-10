@@ -8,7 +8,7 @@ var isValid = function (s) {
   const temp_dic = {        
     "(": ")",
     "[": "]",  
-    "{": "}"
+    "{": "}"   
   };     
   let arr = [];
   if (s.length <= 1) return false;
@@ -26,4 +26,5 @@ var isValid = function (s) {
 const s = "(]"; //Output: false
 let bbb = isValid(s);
 console.log("result", bbb);
+
 
