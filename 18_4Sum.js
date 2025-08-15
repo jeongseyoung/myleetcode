@@ -16,7 +16,7 @@ var fourSum = function (nums, target) {
   nums.sort((a, b) => a - b);   
   //let result = [];
   let dic_res = {};
-  let n1 = 0;
+  let n1 = 0;    
   while (n1 <= nums.length) {
     //let n2 = n1 + 1;
     for (let n2 = n1 + 1; n2 <= nums.length - 1; n2++) {
@@ -67,3 +67,4 @@ fourSum(myNums, myTarget);
 //   [1, 2],
 //   [1, 2]
 // ];
+
