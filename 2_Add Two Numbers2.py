@@ -14,7 +14,7 @@ class Solution:
         result = self.make_reverselinkedlist(self.make_list(sum))
 
         return result        
-    
+          
     def make_reverselinkedlist(self,sum_list):
         p = None
         for x in sum_list:
@@ -43,5 +43,6 @@ class Solution:
             mylist.append(getdata.val)
             getdata = getdata.next
         return mylist
+
 
 
