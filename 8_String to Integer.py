@@ -13,7 +13,7 @@ Return the integer as the final result
 Example 1:
 Input: s = "42"
        
-Output: 42    
+Output: 42          
       
 Explanation:     
 
@@ -100,5 +100,6 @@ if __name__=="__main__":
     # if not a.isdigit():
         # print("nnnnnn")
     
+
 
 
