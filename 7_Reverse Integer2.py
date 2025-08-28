@@ -8,7 +8,7 @@ def reverse(x: int) -> int:
     if output <= -2**31 or output >= 2**31 - 1: return 0
     #print(output)
     return output   
-     
+         
 if __name__ == "__main__":
     #x = -123
     x = 10
@@ -17,4 +17,5 @@ if __name__ == "__main__":
     print(reverse(x))
     #a = "abc"
     #print(a[::-1])
+
 
