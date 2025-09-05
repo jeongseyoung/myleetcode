@@ -14,7 +14,7 @@ Example 1:
 Input: s = "42"
        
 Output: 42          
-      
+       
 Explanation:     
 
 The underlined characters are what is read in and the caret is the current reader position.
@@ -100,6 +100,7 @@ if __name__=="__main__":
     # if not a.isdigit():
         # print("nnnnnn")
     
+
 
 
 
