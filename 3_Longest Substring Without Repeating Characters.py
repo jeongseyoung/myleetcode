@@ -36,10 +36,11 @@ def substg(s):
     return max_len    
         
 if __name__ == "__main__":
-    mystr1 = "dvdf"
+    mystr1 = "dvdf"  
     mystr2 = "pwwkew"
     mystr3 = "anviaj"
     mystr4 = "ckilbkd"
     mystr5 = "abba"
     print(substg(mystr5))
+
 
