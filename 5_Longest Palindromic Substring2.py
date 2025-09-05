@@ -22,7 +22,7 @@ def slam(s: str) -> str:
     else:
         return output2
 # 회문이 짝수
-def a(s):
+def a(s): 
     max_start, max_end = 0, 0    
     for i in range(len(s)):
         start, end = i, i+1
@@ -73,5 +73,6 @@ if __name__ == "__main__":
     s = "1551"
     print("output:",slam(s))
     #print(len(s))
+
 
 
