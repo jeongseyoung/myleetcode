@@ -33,7 +33,7 @@ def themedian(nums1,nums2) -> float:
         return nums1[m.floor(len(nums1) / 2)]
             
 
-
+ 
 
 
 if __name__ == "__main__":
@@ -42,4 +42,5 @@ if __name__ == "__main__":
     nums1, nums2 = [], [2,3] #Expected 2.5
     print(themedian(nums1,nums2))
     
+
 
