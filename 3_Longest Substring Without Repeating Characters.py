@@ -4,7 +4,7 @@ Example 1:
 Input: s = "abcabcbb"
 Output: 3
 Explanation: The answer is "abc", with the length of 3.
-    
+         
 Example 2:
 Input: s = "bbbbb"
 Output: 1
@@ -42,5 +42,6 @@ if __name__ == "__main__":
     mystr4 = "ckilbkd"
     mystr5 = "abba"
     print(substg(mystr5))
+
 
 
