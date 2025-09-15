@@ -5,7 +5,7 @@
 /**   
  * @param {number} x
  * @return {boolean}      
- */           
+ */              
 //-231 <= x <= 231 - 1   
 var isPalindrome = function (x) {
   temp_str = String(x);
@@ -40,6 +40,7 @@ console.log(abc);
 x = 121;
 //x = 1551;
 isPalindrome(x);
+
 
 
 
