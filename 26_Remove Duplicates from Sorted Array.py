@@ -9,7 +9,7 @@ class Solution(object):
         """
         :type nums: List[int]
         :rtype: int
-        """   
+        """       
         print(f"{self}, {nums}")   
             
         if not nums: return 0       
@@ -30,3 +30,4 @@ if __name__ == "__main__":
     nums = [1,1,2] 
     solution = Solution()
     print(solution.removeDuplicates(nums))
+
