@@ -10,7 +10,7 @@ def reverse(x: int) -> int:
     return output   
          
 if __name__ == "__main__":
-    #x = -123
+    #x = -123      
     x = 10
     #x = 1534236469      
     #x = 8192 # 2918
@@ -19,5 +19,6 @@ if __name__ == "__main__":
     #print(a[::-1])
 
     
+
 
 
