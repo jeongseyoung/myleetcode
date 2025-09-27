@@ -7,7 +7,7 @@ nums안에서 조작해야됨.(modify nums *in-place* instead.)
 ***queue 이용. 이게 핵심
 """   
 class Solution(object):        
-    def __init__(self):
+    def __init__(self):  
         self.name = "removeElement"   
     def removeElement(self, nums: list[int], val: int) -> int:
         """     
@@ -32,3 +32,4 @@ if __name__ == "__main__":
     nums, val =  [0,1,2,2,3,0,4,2], 2
     sol = Solution()
     sol.removeElement(nums, val)
+
