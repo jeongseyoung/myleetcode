@@ -6,7 +6,7 @@ def reverse(x: int) -> int:
         output = int(str(x)[::-1])
                
     if output <= -2**31 or output >= 2**31 - 1: return 0
-    #print(output)
+    #print(output)       
     return output   
          
 if __name__ == "__main__":
@@ -19,6 +19,7 @@ if __name__ == "__main__":
     #print(a[::-1])
 
     
+
 
 
 
