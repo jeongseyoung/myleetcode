@@ -8,7 +8,7 @@ Example 2:
 Input: s = "cbbd"
 Output: "bb"
           
-           
+               
 Constraints:
 1 <= s.length <= 1000
 s consist of only digits and English letters.
@@ -73,6 +73,7 @@ if __name__ == "__main__":
     s = "1551"
     print("output:",slam(s))
     #print(len(s))
+
 
 
 
