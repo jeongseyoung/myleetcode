@@ -3,7 +3,7 @@
  * @return {string[]}
  */
 /*      
-Example 1:      
+Example 1:        
 Input: digits = "23" //string
 Output: ["ad","ae","af","bd","be","bf","cd","ce","cf"]
 */               
@@ -51,6 +51,7 @@ const res = letterCombinations(digits);
 
 //let t_a2 = Array.from(str);
 //console.log(t_a2);
+
 
 
 
