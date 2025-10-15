@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @param {number} target
  * @return {number}
- */   
+ */     
                      
 //숫자 3개를 더해서 target에 가장 가깝게 만들기
 //마찬가지로 포인터 3개를 잡고 더하면서 비교한다.
@@ -77,4 +77,5 @@ const mynums = [-1, 2, 1, -4]; //target 1 output 2
 //const mynums = [0, 0, 0]; //target 1 output 0
 //const mynums = [0, 1, 2];
 console.log("s", threeSumClosest(mynums, 0));
+
 
