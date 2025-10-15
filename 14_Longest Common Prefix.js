@@ -2,7 +2,7 @@
 Write a function to find the longest common prefix string amongst an array of strings.
 If there is no common prefix, return an empty string "" 
          
-Example 1:
+Example 1:  
 Input: strs = ["flower","flow","flight"]
 Output: "fl"        
                                       
@@ -50,6 +50,7 @@ strs = ["flower", "flow", "flight"]; //"fl"
 //strs = ["flower", "flower", "flower", "flower"];
 //strs = ["c", "acc", "ccc"]; //""
 console.log("rrrrr", longestCommonPrefix(strs));
+
 
 
 
