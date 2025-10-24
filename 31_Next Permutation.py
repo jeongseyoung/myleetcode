@@ -3,7 +3,7 @@ class Solution(object):
     def nextPermutation(self, nums):        
         temp = [n for n in nums]
         temp.sort(reverse=True)
-        tempbool = False
+        tempbool = False           
         for i in range(0, len(temp)):
             print(temp[i], nums[i])
             if temp[i] != nums[i]:
@@ -39,4 +39,5 @@ if __name__ == "__main__":
     nums = [1,2,3]
     sol = Solution()
     sol.nextPermutation(nums)
+
 
