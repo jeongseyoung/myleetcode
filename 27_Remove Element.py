@@ -9,7 +9,7 @@ nums안에서 조작해야됨.(modify nums *in-place* instead.)
 class Solution(object):        
     def __init__(self):  
         self.name = "removeElement"   
-    def removeElement(self, nums: list[int], val: int) -> int:
+    def removeElement(self, nums: list[int], val: int) -> int:    
         """     
         :type nums: List[int]
         :type val: int     
@@ -32,5 +32,6 @@ if __name__ == "__main__":
     nums, val =  [0,1,2,2,3,0,4,2], 2
     sol = Solution()
     sol.removeElement(nums, val)
+
 
 
