@@ -2,7 +2,7 @@
 #Input: nums = [1,1,2]
 #Output: 2, nums = [1,2,_]
 
-#Input: nums = [0,0,1,1,1,2,2,3,3,4]
+#Input: nums = [0,0,1,1,1,2,2,3,3,4]   
 #Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
 class Solution(object):
     def removeDuplicates(self, nums):
@@ -30,6 +30,7 @@ if __name__ == "__main__":
     nums = [1,1,2] 
     solution = Solution()
     print(solution.removeDuplicates(nums))
+
 
 
 
