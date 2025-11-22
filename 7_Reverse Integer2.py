@@ -16,9 +16,10 @@ if __name__ == "__main__":
     #x = 8192 # 2918
     print(reverse(x))
     #a = "abc"
-    #print(a[::-1])
+    #print(a[::-1])    
 
     
+
 
 
 
