@@ -19,7 +19,7 @@ class Solution(object):
         j = 0
         z = 0
         while True:
-            while True:
+            while True:   
                 #print(f"i: {i} j: {j} nums: {nums}")
                 i = i - 1
                 if i == j or z == 1: break            
@@ -39,6 +39,7 @@ if __name__ == "__main__":
     nums = [1,2,3]
     sol = Solution()
     sol.nextPermutation(nums)
+
 
 
 
