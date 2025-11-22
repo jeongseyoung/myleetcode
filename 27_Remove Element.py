@@ -19,7 +19,7 @@ class Solution(object):
         #nums = [n for n in nums if val != n]
         #return len(nums)
         #print(nums)
-        for _ in range(len(nums)):
+        for _ in range(len(nums)):  
             if nums[0] != val:
                 nums.append(nums[0])
                 nums.remove(nums[0]) 
@@ -32,6 +32,7 @@ if __name__ == "__main__":
     nums, val =  [0,1,2,2,3,0,4,2], 2
     sol = Solution()
     sol.removeElement(nums, val)
+
 
 
 
