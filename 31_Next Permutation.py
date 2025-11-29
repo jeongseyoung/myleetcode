@@ -16,7 +16,7 @@ class Solution(object):
                            
     def rotate(self, nums):
         i = len(nums)
-        j = 0
+        j = 0  
         z = 0
         while True:
             while True:   
@@ -39,6 +39,7 @@ if __name__ == "__main__":
     nums = [1,2,3]
     sol = Solution()
     sol.nextPermutation(nums)
+
 
 
 
