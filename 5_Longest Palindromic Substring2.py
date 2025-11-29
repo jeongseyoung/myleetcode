@@ -12,7 +12,7 @@ Output: "bb"
 Constraints:
 1 <= s.length <= 1000
 s consist of only digits and English letters.
-"""
+"""  
 # palindrome 회문
 def slam(s: str) -> str:
     output1 = a(s) # 짝수인 회문
@@ -73,6 +73,7 @@ if __name__ == "__main__":
     s = "1551"
     print("output:",slam(s))
     #print(len(s))
+
 
 
 
