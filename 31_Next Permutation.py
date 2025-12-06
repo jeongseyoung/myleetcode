@@ -11,7 +11,7 @@ class Solution(object):
                 break     
         print(f"tempbool {tempbool}")
         if tempbool: nums = self.rotate(nums)
-        else: nums.sort(reverse=False)
+        else: nums.sort(reverse=False)   
         print(nums)
                            
     def rotate(self, nums):
@@ -39,6 +39,7 @@ if __name__ == "__main__":
     nums = [1,2,3]
     sol = Solution()
     sol.nextPermutation(nums)
+
 
 
 
