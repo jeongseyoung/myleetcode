@@ -10,7 +10,7 @@
 var isPalindrome = function (x) {         
   temp_str = String(x);
   //const max_num = 2 ** 31 - 1;
-  //const min_num = -(2 ** 31);
+  //const min_num = -(2 ** 31);   
   if (x > 2 ** 31 - 1 || x < -(2 ** 31)) {
     return false;    
   }
@@ -40,6 +40,7 @@ console.log(abc);
 x = 121;
 //x = 1551;
 isPalindrome(x);
+
 
 
 
