@@ -12,7 +12,7 @@ var threeSumClosest = function (nums, target) {
   let r = null;   
   //let min_num = 0;
   //let temp_result = 0;
-  let result = 0;
+  let result = 0;  
   let s = 0;
   nums.sort((a, b) => a - b);
   console.log(nums);
@@ -77,6 +77,7 @@ const mynums = [-1, 2, 1, -4]; //target 1 output 2
 //const mynums = [0, 0, 0]; //target 1 output 0
 //const mynums = [0, 1, 2];
 console.log("s", threeSumClosest(mynums, 0));
+
 
 
 
