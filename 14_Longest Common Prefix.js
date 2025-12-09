@@ -5,7 +5,7 @@ If there is no common prefix, return an empty string ""
 Example 1:  
 Input: strs = ["flower","flow","flight"]
 Output: "fl"        
-                                        
+                                              
 Example 2:    
 Input: strs = ["dog","racecar","car"]
 Output: ""   
@@ -50,6 +50,7 @@ strs = ["flower", "flow", "flight"]; //"fl"
 //strs = ["flower", "flower", "flower", "flower"];
 //strs = ["c", "acc", "ccc"]; //""
 console.log("rrrrr", longestCommonPrefix(strs));
+
 
 
 
