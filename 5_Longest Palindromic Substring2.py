@@ -20,7 +20,7 @@ def slam(s: str) -> str:
     if len(output1) > len(output2):
         return output1
     else:
-        return output2
+        return output2     
 # 회문이 짝수
 def a(s): 
     max_start, max_end = 0, 0    
@@ -73,6 +73,7 @@ if __name__ == "__main__":
     s = "1551"
     print("output:",slam(s))
     #print(len(s))
+
 
 
 
