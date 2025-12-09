@@ -12,7 +12,7 @@ class Solution(object):
         print(f"tempbool {tempbool}")
         if tempbool: nums = self.rotate(nums)
         else: nums.sort(reverse=False)   
-        print(nums)
+        print(nums)       
                            
     def rotate(self, nums):
         i = len(nums)
@@ -39,6 +39,7 @@ if __name__ == "__main__":
     nums = [1,2,3]
     sol = Solution()
     sol.nextPermutation(nums)
+
 
 
 
