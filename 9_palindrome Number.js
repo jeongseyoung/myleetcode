@@ -24,7 +24,7 @@ let isPalindrome2 = function (x) {
     return false;
   }
   let temp_str = "";
-  let temp_num = x;
+  let temp_num = x;     
   //for (i = 0; i <= String(x).length - 1; i++) {
   while (temp_num != 0) {
     temp_str += String(temp_num % 10);
@@ -40,6 +40,7 @@ console.log(abc);
 x = 121;
 //x = 1551;
 isPalindrome(x);
+
 
 
 
