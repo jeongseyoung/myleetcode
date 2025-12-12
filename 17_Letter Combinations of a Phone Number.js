@@ -12,7 +12,7 @@ digits 이라는 숫자 문자열을 입력받음. 각 숫자 키패드에 해�
 */            
 var letterCombinations = function (digits) {
   const dic = {
-    2: "abc",
+    2: "abc",    
     3: "def",
     4: "ghi",
     5: "jkl",
@@ -51,6 +51,7 @@ const res = letterCombinations(digits);
 
 //let t_a2 = Array.from(str);
 //console.log(t_a2);
+
 
 
 
