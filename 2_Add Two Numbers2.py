@@ -22,7 +22,7 @@ class Solution:
             node.next = p
             p = node 
         return node       
-        
+          
     def make_num(self,linkedlist):
         getdata = linkedlist
         num = ""
@@ -43,6 +43,7 @@ class Solution:
             mylist.append(getdata.val)
             getdata = getdata.next
         return mylist
+
 
 
 
