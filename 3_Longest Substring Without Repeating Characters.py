@@ -20,7 +20,7 @@ def substg(s):
     #print(s.find("w"))
     mylist:list = [x for x in s]
     mydic:dict = {}
-    start = 0
+    start = 0   
     max_len = 0
     for index,value in enumerate(mylist):
         if value in mydic:
@@ -42,6 +42,7 @@ if __name__ == "__main__":
     mystr4 = "ckilbkd"
     mystr5 = "abba"
     print(substg(mystr5))
+
 
 
 
