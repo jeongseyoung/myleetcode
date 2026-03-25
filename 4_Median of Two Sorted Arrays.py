@@ -18,7 +18,7 @@ Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 """
 # 중간값(median)찾기
 # 내림floor 올림ceil 반올림round
-def themedian(nums1,nums2) -> float:
+def themedian(nums1,nums2) -> float:  
     nums1.extend(nums2)
     nums1.sort()    
     if len(nums1) % 2 == 0:
