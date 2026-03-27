@@ -15,7 +15,7 @@ target과 같은 수가 나오면 배열에 저장.
 var fourSum = function (nums, target) {
   nums.sort((a, b) => a - b);   
   //let result = [];
-  let dic_res = {};
+  let dic_res = {};  
   let n1 = 0;    
   while (n1 <= nums.length) {
     //let n2 = n1 + 1;
