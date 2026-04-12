@@ -8,7 +8,7 @@
 //마찬가지로 포인터 3개를 잡고 더하면서 비교한다.  
 //     
 var threeSumClosest = function (nums, target) {
-  console.log("target", target);
+  console.log("target", target);   
   let r = null;   
   //let min_num = 0;
   //let temp_result = 0;
