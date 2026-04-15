@@ -13,7 +13,7 @@ var isPalindrome = function (x) {
   //const min_num = -(2 ** 31);   
   if (x > 2 ** 31 - 1 || x < -(2 ** 31)) {
     return false;    
-  }
+  }      
   //temp_str_reverse = temp_str.split("").reverse().join("");
   return temp_str == temp_str.split("").reverse().join("") ? true : false;
 };
