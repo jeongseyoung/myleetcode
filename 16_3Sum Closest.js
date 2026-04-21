@@ -9,7 +9,7 @@
 //     
 var threeSumClosest = function (nums, target) {
   console.log("target", target);   
-  let r = null;   
+  let r = null;          
   //let min_num = 0;
   //let temp_result = 0;
   let result = 0;  
