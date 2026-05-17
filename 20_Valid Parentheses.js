@@ -5,7 +5,7 @@
 // "[{}]"   
 //   ^                   
 var isValid = function (s) {
-  const temp_dic = {        
+  const temp_dic = {          
     "(": ")",
     "[": "]",  
     "{": "}"     
