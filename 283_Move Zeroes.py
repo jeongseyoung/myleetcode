@@ -5,7 +5,7 @@ cnt = 0
                 cnt += 1 
                 del nums[0]
             else: 
-                nums.append(nums[0])
+                nums.append(nums[0])       
                 del nums[0]
         for n in range(cnt):    
             nums.append(0)
