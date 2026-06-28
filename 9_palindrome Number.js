@@ -17,10 +17,11 @@ var isPalindrome = function (x) {
   //temp_str_reverse = temp_str.split("").reverse().join("");
   return temp_str == temp_str.split("").reverse().join("") ? true : false;
 };
-                   
+                      
 let isPalindrome2 = function (x) {
   if (x > 2 ** 31 - 1 || x < -(2 ** 31) || String(x)[0] == "-") {
     //if (x < 0) {
+     //return true;
     return false;
   }
   let temp_str = "";
