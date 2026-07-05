@@ -21,6 +21,7 @@ class Solution:
             node = ListNode(x)
             node.next = p
             p = node 
+            # return f"{node}"
         return node       
           
     def make_num(self,linkedlist):
