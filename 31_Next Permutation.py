@@ -33,7 +33,7 @@ class Solution(object):
         print(f"rotate nums {nums}")
         return nums
         
-#if
+#if# Definition for singly-linked list.
 
 if __name__ == "__main__":
     nums = [1,2,3]
